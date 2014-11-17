@@ -1,3 +1,4 @@
+Study,Year,PMID,experimental_events,experimental_total,control_events,control_total, Cofactor
 COPPS-2,2014,25172965,35,180,53,180, 'Primary prevention of postpericardiotomy syndrome'
 COPPS,2010,20805112,16,180,38,180, 'Primary prevention of postpericardiotomy syndrome'
 Finkelstein,2002,12574898,5,47,14,64, 'Primary prevention of postpericardiotomy syndrome'
