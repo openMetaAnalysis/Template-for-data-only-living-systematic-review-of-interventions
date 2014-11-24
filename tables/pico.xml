@@ -6,18 +6,18 @@
 			<bullet>Mean age 10 years</bullet>
 			<bullet>Prior coronary diseas 30%</bullet>
 		</patients>
-		<i>Hypertonic saline
+		<intervention>Hypertonic saline
 			<bullet>5 ml</bullet>
 			<bullet>With albuterol</bullet>
-		</i>
-		<c>Normal saline
+		</intervention>
+		<comparison>Normal saline
 			<bullet>5 ml</bullet>
 			<bullet>With albuterol</bullet>
-		</c>
-		<o>
+		</comparison>
+		<outcome>
 			<bullet url="http://www.wikidoc.org/index.php/Respiratory_distress_assessment_instrument">Respiratory distress assessment index (RDAI)</bullet>
 			<bullet>Hospitalization rate</bullet>
-		</o>
+		</outcome>
 	</study>
 	<study>
 		<citation year="2010" pmid="22222" journal_abbrev="New Eng J Med">Second study name</citation>
@@ -25,18 +25,18 @@
 			<bullet>Mean age 20 years</bullet>
 			<bullet>Prior coronary diseas 30%</bullet>
 		</patients>
-		<i>Hypertonic saline
+		<intervention>Hypertonic saline
 			<bullet>5 ml</bullet>
 			<bullet>With albuterol</bullet>
-		</i>
-		<c>Normal saline
+		</intervention>
+		<comparison>Normal saline
 			<bullet>5 ml</bullet>
 			<bullet>With albuterol</bullet>
-		</c>
-		<o>
+		</comparison>
+		<outcome>
 			<bullet url="http://www.wikidoc.org/index.php/Respiratory_distress_assessment_instrument">Respiratory distress assessment index (RDAI)</bullet>
 			<bullet>Hospitalization rate</bullet>
-		</o>
+		</outcome>
 	</study>
 	<study>
 		<citation year="2015" pmid="33333333" journal_abbrev="New Eng J Med">Third study name</citation>
@@ -44,17 +44,17 @@
 			<bullet>Mean age 30 years</bullet>
 			<bullet>Prior coronary diseas 30%</bullet>
 		</patients>
-		<i>Hypertonic saline
+		<intervention>Hypertonic saline
 			<bullet>5 ml</bullet>
 			<bullet>With albuterol</bullet>
-		</i>
-		<c>Normal saline
+		</intervention>
+		<comparison>Normal saline
 			<bullet>5 ml</bullet>
 			<bullet>With albuterol</bullet>
-		</c>
-		<o>
+		</comparison>
+		<outcome>
 			<bullet url="http://www.wikidoc.org/index.php/Respiratory_distress_assessment_instrument">Respiratory distress assessment index (RDAI)</bullet>
 			<bullet>Hospitalization rate</bullet>
-		</o>
+		</outcome>
 	</study>
 </included>
