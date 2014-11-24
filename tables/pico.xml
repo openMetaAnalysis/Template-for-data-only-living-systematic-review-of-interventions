@@ -3,57 +3,58 @@
 	<study>
 		<citation year="2000" pmid="11111111" journal_abbrev="New Eng J Med">First study name</citation>
 		<patients total="100">
-			<characteristic>Mean age 30 years</characteristic>
-			<characteristic>Prior coronary diseas 30%</characteristic>
+			<bullet>Mean age 10 years</bullet>
+			<bullet>Prior coronary diseas 30%</bullet>
 		</patients>
 		<i>Hypertonic saline
-			<characteristic>5 ml</characteristic>
-			<characteristic>With albuterol</characteristic>
+			<bullet>5 ml</bullet>
+			<bullet>With albuterol</bullet>
 		</i>
 		<c>Normal saline
-			<characteristic>5 ml</characteristic>
-			<characteristic>With albuterol</characteristic>
+			<bullet>5 ml</bullet>
+			<bullet>With albuterol</bullet>
 		</c>
 		<o>
-			<outcome url="http://www.wikidoc.org/index.php/Respiratory_distress_assessment_instrument">Respiratory distress assessment index (RDAI)</outcome>
-			<outcome>Hospitalization rate</outcome>
-		</o>	</study>
+			<bullet url="http://www.wikidoc.org/index.php/Respiratory_distress_assessment_instrument">Respiratory distress assessment index (RDAI)</bullet>
+			<bullet>Hospitalization rate</bullet>
+		</o>
+	</study>
 	<study>
-		<citation year="2010" pmid="22222222" journal_abbrev="New Eng J Med">Second study name</citation>
-		<patients total="500">
-			<characteristic>Mean age 30 years</characteristic>
-			<characteristic>Prior coronary diseas 30%</characteristic>
+		<citation year="2010" pmid="22222" journal_abbrev="New Eng J Med">Second study name</citation>
+		<patients total="100">
+			<bullet>Mean age 20 years</bullet>
+			<bullet>Prior coronary diseas 30%</bullet>
 		</patients>
 		<i>Hypertonic saline
-			<characteristic>5 ml</characteristic>
-			<characteristic>With albuterol</characteristic>
+			<bullet>5 ml</bullet>
+			<bullet>With albuterol</bullet>
 		</i>
 		<c>Normal saline
-			<characteristic>5 ml</characteristic>
-			<characteristic>With albuterol</characteristic>
+			<bullet>5 ml</bullet>
+			<bullet>With albuterol</bullet>
 		</c>
 		<o>
-			<outcome>Respiratory distress index assessment (RDAI)</outcome>
-			<outcome>Hospitalization rate</outcome>
+			<bullet url="http://www.wikidoc.org/index.php/Respiratory_distress_assessment_instrument">Respiratory distress assessment index (RDAI)</bullet>
+			<bullet>Hospitalization rate</bullet>
 		</o>
 	</study>
 	<study>
 		<citation year="2015" pmid="33333333" journal_abbrev="New Eng J Med">Third study name</citation>
-		<patients total="1000">
-			<characteristic>Mean age 30 years</characteristic>
-			<characteristic>Prior coronary diseas 30%</characteristic>
+		<patients total="100">
+			<bullet>Mean age 30 years</bullet>
+			<bullet>Prior coronary diseas 30%</bullet>
 		</patients>
 		<i>Hypertonic saline
-			<characteristic>5 ml</characteristic>
-			<characteristic>With albuterol</characteristic>
+			<bullet>5 ml</bullet>
+			<bullet>With albuterol</bullet>
 		</i>
 		<c>Normal saline
-			<characteristic>5 ml</characteristic>
-			<characteristic>With albuterol</characteristic>
+			<bullet>5 ml</bullet>
+			<bullet>With albuterol</bullet>
 		</c>
 		<o>
-			<outcome>Respiratory distress index assessment (RDAI)</outcome>
-			<outcome>Hospitalization rate</outcome>
+			<bullet url="http://www.wikidoc.org/index.php/Respiratory_distress_assessment_instrument">Respiratory distress assessment index (RDAI)</bullet>
+			<bullet>Hospitalization rate</bullet>
 		</o>
 	</study>
 </included>
