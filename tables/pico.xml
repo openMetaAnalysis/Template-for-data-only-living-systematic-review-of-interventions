@@ -16,7 +16,7 @@
 			<characteristic>With albuterol</characteristic>
 		</c>
 		<o>
-			<outcome>Respiratory distress index assessment (RDAI)</outcome>
+			<outcome url="http://www.wikidoc.org/index.php/Respiratory_distress_assessment_instrument">Respiratory distress assessment index (RDAI)</outcome>
 			<outcome>Hospitalization rate</outcome>
 		</o>	</study>
 	<study>
