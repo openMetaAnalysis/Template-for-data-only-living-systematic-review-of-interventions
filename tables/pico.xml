@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+	<study>
+		<name>Belgian Waffles</name>
+		<journal>Two of our famous Belgian Waffles with plenty of real maple syrup</journal>
+		<year>2000<year>
+		<pmid>12345678</pmid>
+		<p>650 patients\n\nMean age: </p>
+		<i>intervention goes here</i>
+		<c>comparison goes here</c>
+		<o>outcomes(s) go here</o>
+	</study>
+	<study>
+		<name>Belgian Waffles</name>
+		<journal>Two of our famous Belgian Waffles with plenty of real maple syrup</journal>
+		<year>2000<year>
+		<pmid>12345678</pmid>
+		<p>650 patients\n\nMean age: </p>
+		<i>intervention goes here</i>
+		<c>comparison goes here</c>
+		<o>outcomes(s) go here</o>
+	</study>
+</included>
