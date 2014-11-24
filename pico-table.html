@@ -20,8 +20,10 @@ var url = "/template/tables/pico.xml";
                 $(xml).find('study').each(function(){
                         //var name = $("citation").text();
                         //alert(name);
-                        var patients = $(this).find('patients').text();
-                        $("#list").append('<li>' + patients + '</li>');
+                        $(this).find('patients').each(function(){
+                                var detail = $(this).find('detail').text();
+                                $("#list").append('<li>' + detail + '</li>');
+                                }
                         });
                 }
       });
