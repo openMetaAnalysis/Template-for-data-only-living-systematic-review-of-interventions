@@ -21,8 +21,8 @@ var url = "/template/tables/pico.xml";
                         //var name = $("citation").text();
                         //alert(name);
                         $(this).find('patients').each(function(){
-                                var detail = $(this).find('detail').text();
-                                $("#list").append('<li>' + detail + '</li>');
+                                var bullet = $(this).find('bullet').text();
+                                $("#list").append('<li>' + bullet + '</li>');
                                 })
                         })
                 }
