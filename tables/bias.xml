@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+	<study>
+		<citation year="2000" pmid="11111111" journal_abbrev="New Eng J Med">First study name</citation>
+		<random>Unclear risk</random>
+		<allocation>Unclear risk</allocation>
+		<blinding_people>Unclear risk</blinding_people>
+		<blinding_assessment>Unclear risk</blinding_assessment>
+	</study>
+</included>
