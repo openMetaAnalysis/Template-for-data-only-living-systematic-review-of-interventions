@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>jQuery.getJSON demo</title>
+<title>openMetaAnalysis: PICO Table</title>
 <script src="//code.jquery.com/jquery-2.1.1.js"></script>
 <script>
 //put this all in a central file!
 $(document).ready(function(){
+        $("#subtitle").text(repo_name);
 var url = "/template/tables/pico.xml";
         $.ajax({
             type: "GET",
@@ -20,6 +21,7 @@ var url = "/template/tables/pico.xml";
                 $(xml).find('study').each(function(){
                         //var name = $("citation").text();
                         //alert(name);
+                        $("#list").append('<li>' + $(this).('citation').text() + '</li>');
                         $(this).find('patients').each(function(){
                                 var bullet = $(this).find('bullet').text();
                                 $("#list").append('<li>' + bullet + '</li>');
@@ -31,6 +33,8 @@ var url = "/template/tables/pico.xml";
 </script>
 </head>
 <body>
+<h1>openMetaAnalysis: PICO Table</h1>
+<h2><span id="subtitle"></span></h2>
       <ul id="list" data-role="listview" data-theme="a" data-filter="true">
       <li id="load">Loading Data...</li>
       </ul>
