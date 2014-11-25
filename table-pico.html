@@ -18,16 +18,19 @@ var url = "/template/tables/pico.xml";
             error: function() {
                 alert("The XML File could not be processed correctly.");
                 },
-            success: function(xml) {
-                $(xml).find('study').each(function(){
-                        //var name = $("citation").text();
-                        //alert(name);
-                        //$("#list").append("#citation > #pmid").text() + '</li>');
+            success: function(xml) { 
+			$("#list").text('');
+			$(xml).find('study').each(function(){
+                        var pmid= $(this).find("citation").attr("pmid");
+			$("#list").append("<li>PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + "</a>")
+			$("#list").append('<ul>')
                         $(this).find('patients').each(function(){
-                                var bullet = $(this).find('bullet').text();
-                                $("#list").append('<li>' + bullet + '</li>');
-                                })
-                        })
+				var bullet = $(this).find('bullet').text();
+				$("#list").append('<li>' + bullet + '</li>');
+				})
+			$("#list").append('</ul>')
+			$("#list").append('</li>')
+			})
                 }
       });
     });
