@@ -1,7 +1,7 @@
 Tempate: a living systematic review
 ============================================
 
-[Source files](tree/gh-pages/)
+[Source files](../../tree/gh-pages/)
 
 References:
 ----------------------------------
