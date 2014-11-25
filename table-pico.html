@@ -20,8 +20,14 @@ var url = "/template/tables/pico.xml";
                 alert("The XML File could not be processed correctly.");
                 },
             success: function(xml) { 
-			$("#list").text('');
 			$(xml).find('study').each(function(){
+				var patients = $(this).find('patients').text()
+					$(this).find('bullet').each(function(){
+						patients += '<br>&nbsp; ' + $(this).text() + '<br>'
+						})
+				var intervention = $(this).find('intervention').text()
+				var comparison = $(this).find('comparison').text()
+				var outcome = $(this).find('outcome').text()
                         	var pmid= $(this).find("citation").attr("pmid");
 				var trHTML = '<tr><td>' + $(this).find('citation').text() + ", " + $(this).find("citation").attr("year") +  '<br>' + $(this).find("citation").attr("journal_abbrev") + "<br>PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + '</td><td>' + $(this).find('patients').text() + '</td><td>' + $(this).find('intervention').text() + '</td><td>' + $(this).find('comparison').text() + '</td><td>' + $(this).find('outcome').text() + '</td></tr>';
 			        $('#citations').append(trHTML);
