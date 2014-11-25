@@ -8,7 +8,6 @@
 <script>
 //put this all in a central file!
 $(document).ready(function(){
-        $("#subtitle").text(repo_name);
 var url = "/template/tables/pico.xml";
         $.ajax({
             type: "GET",
@@ -22,7 +21,7 @@ var url = "/template/tables/pico.xml";
 			$("#list").text('');
 			$(xml).find('study').each(function(){
                         var pmid= $(this).find("citation").attr("pmid");
-			$("#list").append("<li>PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + "</a>")
+			$("#list").append("<li>" + $(this).find("journal_abbrev").attr("pmid") + ". " + $(this).find("year").attr("pmid") + " PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + "</a>")
 			$("#list").append('<ul>')
                         $(this).find('patients').each(function(){
 				var bullet = $(this).find('bullet').text();
@@ -38,7 +37,7 @@ var url = "/template/tables/pico.xml";
 </head>
 <body>
 <h1>openMetaAnalysis: PICO Table</h1>
-<h2><span id="subtitle"></span></h2>
+<h2><span class="repo_name"></span></h2>
       <ul id="list" data-role="listview" data-theme="a" data-filter="true">
       <li id="load">Loading Data...</li>
       </ul>
