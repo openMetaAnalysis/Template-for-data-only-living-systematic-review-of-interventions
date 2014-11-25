@@ -20,15 +20,15 @@ var url = "/template/tables/pico.xml";
             success: function(xml) { 
 			$("#list").text('');
 			$(xml).find('study').each(function(){
-                        var pmid= $(this).find("citation").attr("pmid");
-			$("#list").append("<li>" + $(this).find("citation").attr("journal_abbrev") + ". " + $(this).find("citation").attr("year") + " PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + "</a>")
-			$("#list").append('<ul>')
-                        $(this).find('patients').each(function(){
-				var bullet = $(this).find('bullet').text();
-				$("#list").append('<li>' + bullet + '</li>');
-				})
-			$("#list").append('</ul>')
-			$("#list").append('</li>')
+                        	var pmid= $(this).find("citation").attr("pmid");
+				$("#list").append("<li>" + $(this).find("citation").attr("journal_abbrev") + ". " + $(this).find("citation").attr("year") + " PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + "</a>")
+				$("#list").append('<ul>')
+                	        $(this).find('patients').each(function(){
+					var bullet = $(this).find('bullet').text();
+					$("#list").append('<li>' + bullet + '</li>');
+					})
+				$("#list").append('</ul>')
+				$("#list").append('</li>')
 			})
                 }
       });
