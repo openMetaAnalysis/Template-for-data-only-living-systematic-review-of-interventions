@@ -21,7 +21,7 @@ var url = "/template/tables/pico.xml";
 			$("#list").text('');
 			$(xml).find('study').each(function(){
                         var pmid= $(this).find("citation").attr("pmid");
-			$("#list").append("<li>" + $(this).find("journal_abbrev").attr("pmid") + ". " + $(this).find("year").attr("pmid") + " PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + "</a>")
+			$("#list").append("<li>" + $(this).find("citation").attr("journal_abbrev") + ". " + $(this).find("citation").attr("year") + " PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + "</a>")
 			$("#list").append('<ul>')
                         $(this).find('patients').each(function(){
 				var bullet = $(this).find('bullet').text();
