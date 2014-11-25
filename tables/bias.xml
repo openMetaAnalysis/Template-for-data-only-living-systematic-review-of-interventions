@@ -6,5 +6,18 @@
 		<allocation>Unclear risk</allocation>
 		<blinding_people>Unclear risk</blinding_people>
 		<blinding_assessment>Unclear risk</blinding_assessment>
+		<attrition>Unclear risk</attrition>
+		<selective_reporting>Unclear risk</selective_reporting>
+		<other_biases>Unclear risk</other_biases>
+	</study>
+	<study>
+		<citation year="2010" pmid="22222222" journal_abbrev="New Eng J Med">Second study name</citation>
+		<random>Unclear risk</random>
+		<allocation>Unclear risk</allocation>
+		<blinding_people>Unclear risk</blinding_people>
+		<blinding_assessment>Unclear risk</blinding_assessment>
+		<attrition>Unclear risk</attrition>
+		<selective_reporting>Unclear risk</selective_reporting>
+		<other_biases>Unclear risk</other_biases>
 	</study>
 </included>
