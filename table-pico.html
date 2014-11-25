@@ -32,7 +32,7 @@ var url = "/template/tables/pico.xml";
 				$("#list").append('</ul>')
 				$("#list").append('</li>')
 				
-				var trHTML = '<tr><td>' + pmid + '</td><td>' + $(this).find('patients').text() + '</td><td>' + $(this).find('intervention').text() + '</td><td>' + $(this).find('control').text() + '</td><td>' + $(this).find('outcome').text() + '</td></tr>';
+				var trHTML = '<tr><td>' + $(this).find('citation').text() + ", " + $(this).find("citation").attr("year") +  '<br>' + $(this).find("citation").attr("journal_abbrev") + "<br>PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + '</td><td>' + $(this).find('patients').text() + '</td><td>' + $(this).find('intervention').text() + '</td><td>' + $(this).find('comparison').text() + '</td><td>' + $(this).find('outcome').text() + '</td></tr>';
 			        $('#citations').append(trHTML);
 				
 			})
