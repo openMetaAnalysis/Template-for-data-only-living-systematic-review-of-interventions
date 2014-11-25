@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <title>openMetaAnalysis: PICO Table</title>
 <script src="//code.jquery.com/jquery-2.1.1.js"></script>
-<script src="http://openmetaanalysis.github.io/openmetaanalysis.js"></script>
+<script src="/tables.js"></script>
+<script src="/openmetaanalysis.js"></script>
 <script>
 //put this all in a central file!
 $(document).ready(function(){
@@ -37,6 +38,10 @@ var url = "/template/tables/pico.xml";
 </head>
 <body>
 <h1>openMetaAnalysis: PICO Table</h1>
+<a href="index.html">Return to summary</a>
+
+<div class="header_panel" id="header_pico"></div>
+
 <h2><span class="repo_name"></span></h2>
       <ul id="list" data-role="listview" data-theme="a" data-filter="true">
       <li id="load">Loading Data...</li>
