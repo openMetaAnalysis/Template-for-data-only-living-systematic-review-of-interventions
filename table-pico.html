@@ -21,19 +21,19 @@ var url = "/template/tables/pico.xml";
                 },
             success: function(xml) { 
 			$(xml).find('study').each(function(){
-				var patients = $(this).find('patients')attr("number") + ' patients:';
+				var patients = $(this).find('patients').attr("number") + ' patients:';
 					$(this).find('bullet').each(function(){
 						patients += '<br>&bull; ' + $(this).text() + '<br>'
 						})
-				var intervention = $(this).find('intervention').text()
+				var intervention = $(this).find('intervention').val()
 					$(this).find('bullet').each(function(){
 						intervention += '<br>&bull; ' + $(this).text() + '<br>'
 						})
-				var comparison = $(this).find('comparison').text()
+				var comparison = $(this).find('comparison').val()
 					$(this).find('bullet').each(function(){
 						comparison += '<br>&bull; ' + $(this).text() + '<br>'
 						})
-				var outcome = $(this).find('outcome').text()
+				var outcome = $(this).find('outcome').val()
 					$(this).find('bullet').each(function(){
 						outcome += '<br>&bull; ' + $(this).text() + '<br>'
 						})
