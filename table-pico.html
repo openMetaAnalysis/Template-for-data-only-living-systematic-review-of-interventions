@@ -21,7 +21,7 @@ var url = "/template/tables/pico.xml";
                 },
             success: function(xml) { 
 			$(xml).find('study').each(function(){
-				var patients = $(this).find('patients').text()
+				var patients = $(this).find('patients')attr("number") + ' patients:';
 					$(this).find('bullet').each(function(){
 						patients += '<br>&bull; ' + $(this).text() + '<br>'
 						})
