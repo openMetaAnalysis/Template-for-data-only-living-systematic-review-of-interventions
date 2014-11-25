@@ -26,10 +26,19 @@ var url = "/template/tables/pico.xml";
 						patients += '<br>&nbsp; ' + $(this).text() + '<br>'
 						})
 				var intervention = $(this).find('intervention').text()
+					$(this).find('bullet').each(function(){
+						intervention += '<br>&nbsp; ' + $(this).text() + '<br>'
+						})
 				var comparison = $(this).find('comparison').text()
+					$(this).find('bullet').each(function(){
+						comparison += '<br>&nbsp; ' + $(this).text() + '<br>'
+						})
 				var outcome = $(this).find('outcome').text()
+					$(this).find('bullet').each(function(){
+						outcome += '<br>&nbsp; ' + $(this).text() + '<br>'
+						})
                         	var pmid= $(this).find("citation").attr("pmid");
-				var trHTML = '<tr><td>' + $(this).find('citation').text() + ", " + $(this).find("citation").attr("year") +  '<br>' + $(this).find("citation").attr("journal_abbrev") + "<br>PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + '</td><td>' + $(this).find('patients').text() + '</td><td>' + $(this).find('intervention').text() + '</td><td>' + $(this).find('comparison').text() + '</td><td>' + $(this).find('outcome').text() + '</td></tr>';
+				var trHTML = '<tr><td>' + $(this).find('citation').text() + ", " + $(this).find("citation").attr("year") +  '<br>' + $(this).find("citation").attr("journal_abbrev") + "<br>PMID: <a href='http://pubmed.gov/" + pmid + "'>" + pmid + '</td><td>' + patients + '</td><td>' + intervention + '</td><td>' + comparison + '</td><td>' + outcome + '</td></tr>';
 			        $('#citations').append(trHTML);
 				
 			})
