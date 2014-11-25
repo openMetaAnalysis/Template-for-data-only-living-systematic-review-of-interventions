@@ -25,17 +25,17 @@ var url = "/template/tables/pico.xml";
 					$(this).find('patients').find('bullet').each(function(){
 						patients += '<br>&bull; ' + $(this).text()
 						})
-				var intervention []
+				var intervention = [];
 					$(this).find('intervention').find('bullet').each(function(){
 						intervention += '<br>&bull; ' + $(this).text()
 						})
 				intervention = $(this).find('intervention').find('bullet').remove().end().text() + intervention
-				var comparison = []
+				var comparison = [];
 					$(this).find('comparison').find('bullet').each(function(){
 						comparison += '<br>&bull; ' + $(this).text()
 						})
 				comparison = $(this).find('comparison').find('bullet').remove().end().text() + comparison
-				var outcome = []
+				var outcome = [];
 					$(this).find('outcome').find('bullet').each(function(){
 						outcome += '<br>&bull; ' + $(this).text()
 						})
