@@ -3,6 +3,7 @@ Tempate: a living systematic review
 
 * [View output](http://openmetaanalysis.github.io)
 * [Source files](../../tree/gh-pages/)
+* ** * [Source files](../../tree/gh-pages/tables/test.xml)
 
 References:
 ----------------------------------
