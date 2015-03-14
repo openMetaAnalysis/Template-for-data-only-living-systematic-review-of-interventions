@@ -1,9 +1,20 @@
-Tempate: a living systematic review
+Template: a data-only living systematic review
 ============================================
+A data-only living systematic review
 
-* [View output](http://openmetaanalysis.github.io)
-* [Source files](../../tree/gh-pages/)
-* ** * [Source files](../../tree/gh-pages/tables/test.xml)
+**Clinical summary:** This meta-analysis suggests that clinical intervention *is* effective. This analysis combines the placebo controlled studies in Figure 4 and the open-label study in Figure 10 from the previously published meta-analysis (Kuter 2010) because the results are very similar.
+
+**Methods overview:** This repository is an [openMetaAnalysis](https://openmetaanalysis.github.io/) that updates a previously published meta-analysis.(1) Newer studies included are listed in the references below. Rationale for newer trials excluded may be listed at the end of the references. 
+
+This repository is a limited review and contains outcomes data only without PICO and Risk of Bias Tables.  This review does not include a GRADE Profile or Summary of Findings Table.
+
+See [methods](http://openmetaanalysis.github.io/methods.html) for details.
+
+**Results:** Details of the studies included are in the:
+* [Forest plots](../../tree/master/forest-plots) ([source data](../../tree/master/data))
+
+The forest plot for the primary outcome is below. Additional [forest plots](../../tree/master/forest-plots) of secondary analyses may be available. 
+![Principle results](https://github.com/openMetaAnalysis/template-for-data-only-review-of-interventions/blob/master/forest-plots/Outcome-Primary.png "Principle results")
 
 References:
 ----------------------------------
