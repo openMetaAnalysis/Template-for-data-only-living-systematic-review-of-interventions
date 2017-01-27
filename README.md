@@ -15,7 +15,7 @@ See [methods](http://openmetaanalysis.github.io/methods.html) for details.
 * [Risk of bias assessment](../../tree/master/study-details/risk-of-bias.md) (not available)
 * [Forest plots](../../tree/master/forest-plots) ([source data](../../tree/master/data))
 * [Meta-regressions](../../tree/master/metaregression) ([source data](../../tree/master/data))
-* [Reconciliation of conclusions and trials included with prior meta-analyses](../../tree/master/reconcilation-tables) (not available)
+* [Reconciliation of conclusions and trials included with prior meta-analyses](../../tree/master/reconciliation-tables) (not available)
 
 The forest plot for the primary outcome is below. Additional [forest plots](../../tree/master/forest-plots) of secondary analyses may be available. 
 ![Principle results](https://github.com/openMetaAnalysis/template-for-data-only-review-of-interventions/blob/master/forest-plots/Outcome-Primary.png "Principle results")
