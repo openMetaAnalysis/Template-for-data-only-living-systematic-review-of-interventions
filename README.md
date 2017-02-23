@@ -8,7 +8,8 @@ A data-only living systematic review
 
 This repository is a limited review and contains outcomes data only without PICO and Risk of Bias Tables.  This review does not include a GRADE Profile or Summary of Findings Table.
 
-See [methods](http://openmetaanalysis.github.io/methods.html) for details.
+* [Methods](http://openmetaanalysis.github.io/methods.html) for openMetaAnalysis
+* [Evidence search](evidence-search.md) for this review
 
 **Results:** Details of the studies included are in the:
 * [Description of studies (PICO table)](../../tree/master/study-details/pico-table.md) (not available)
