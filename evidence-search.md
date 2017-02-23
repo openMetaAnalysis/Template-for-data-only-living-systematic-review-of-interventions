@@ -1,14 +1,17 @@
 #Evidence search
+##Inclusion criteria
+* Randomized or nonrandomized studies that report changes in hemoglobin, blood loss, or tranfusion rate
+
 ## Reconciliation tables
 * [Comparison of included studies with prior systematc reviews](../../tree/master/reconciliation-tables/)
 
 ##PubMed
 ###Boolean term searching
 surprise\* AND question AND (mortality OR death OR died)
-* 25 articles (reviewed 7/17/2016)
+* 25 articles (search results reviewed 7/17/2016)
 
 ###Related citations searching
-* Seed articles: pending (reviewed 2/x/2017)
+* Seed articles: pending (search results reviewed 2/x/2017)
 
 ##Cited reference searching
 
