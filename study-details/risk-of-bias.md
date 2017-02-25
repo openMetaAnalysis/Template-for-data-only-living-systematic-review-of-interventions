@@ -1,5 +1,7 @@
 #Risk of bias table
 
+*This template contains below tables for both diagnostic tests assessments and randomized controlled trials. Delete the table that is not needed after importing the files for the review template.
+
 ##Diagnostic test assessment studies
 
 Based on [QUADAS-2](http://www.bristol.ac.uk/social-community-medicine/projects/quadas/quadas-2/).
