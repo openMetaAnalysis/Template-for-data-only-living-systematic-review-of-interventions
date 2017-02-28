@@ -1,6 +1,7 @@
 #Risk of bias table
+([switch to PICO table](pico-table.md))
 
-*This template contains below tables for both diagnostic tests assessments and randomized controlled trials. Delete the table that is not needed after importing the files for the review template.
+<i>This template contains below tables for both diagnostic tests assessments and randomized controlled trials. Delete the table that is not needed after importing the files for the review template.</i>
 
 ##Diagnostic test assessment studies
 
@@ -20,7 +21,7 @@ Based on [QUADAS-2](http://www.bristol.ac.uk/social-community-medicine/projects/
 | Lanspa      |[23084132](http://pubmed.gov/23084132)|?  risk         |?  risk     |?  risk       |?  risk   |
 | Michard     |[11534577](http://pubmed.gov/11534577)|?  risk         |?  risk     |?  risk       |?  risk   |
 
-**Footnotes:**
+**Footnotes:**<br>
 *
 †
 
@@ -35,6 +36,6 @@ Based on [Cochrane Handbook](http://handbook.cochrane.org/chapter_8/table_8_5_d_
 | Kuan          |[26475246](http://pubmed.gov/26475246)|Low risk |Low risk |Unclear risk |Unclear risk |Low risk|Low risk|Low risk|
 | ProCESS       |[24635773](http://pubmed.gov/24635773)|Low risk |Low risk |Unclear risk |Low risk     |Low risk |Low risk|Low risk|
 
-**Footnotes:**
+**Footnotes:**<br>
 *
 †
