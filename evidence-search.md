@@ -1,27 +1,28 @@
 #Evidence search
-(under development
 ##Inclusion criteria
-* Randomized or nonrandomized studies that report changes in hemoglobin, blood loss, or tranfusion rate
+* Randomized trials of chronic low back pain that compare tramadol to placebo.
 
 ## Reconciliation tables
 * [Comparison of included studies with prior systematic reviews](../../tree/master/reconciliation-tables/)
 
 ##PubMed
 ###Boolean term searching
-surprise\* AND question AND (mortality OR death OR died)
-* 25 articles (search results reviewed 7/17/2016)
+chronic AND back pain AND tramadol AND random\*
+* Retrieves 7 articles in hand (100% sensitivity)
+* 33 articles (search results reviewed 2/27/2016; no additional studies found)
 
-###Related citations searching
-* Seed articles: pending (search results reviewed 2/x/2017)
+###Vector searching ('Related citations' search)
+* Seed articles: PMIDs [15570651,12809961,10743823,22970658,18557165,24183364,24526247](https://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&tool=SUMSearch2plugins&otool=kumclib&term=15570651%2012809961%2010743823%2022970658%2018557165%2024183364%2024526247) ([2395 citations](https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=15570651,12809961,10743823,22970658,18557165,24183364,24526247))
+* Seed articles: PMIDs [15570651,12809961,10743823,22970658,18557165,24183364,24526247](https://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&tool=SUMSearch2plugins&otool=kumclib&term=15570651%2012809961%2010743823%2022970658%2018557165%2024183364%2024526247) AND back pain AND tramadol AND random* (31 citations; no additional articles found)
+
+##ClinicalTrials.gov
+* [Tramadol AND placebo AND chronic AND back pain](https://clinicaltrials.gov/ct2/results?term=Tramadol+AND+placebo+AND+chronic+AND+back+pain+&Search=Search): (6 citations: [NCT000736853](https://clinicaltrials.gov/ct2/show/NCT000736853) and [NCT00347724](https://clinicaltrials.gov/ct2/show/NCT00347724) met inclusion criteria but [NCT00347724](https://clinicaltrials.gov/ct2/show/NCT00347724) did not have posted results)
 
 ##Cited reference searching
 
 ###Identifying seminal studies that are the most highly cited
-- Pattison. J Palliat Med. 2001 PMID: 11441634. First conceptualization of the question. Cited by 34
-- Murray. BMJ. 2002 PMID: 12399341  Early conceptualization of the question. Cited by 467
-- Barnes. Chronic Illn. 2008 PMID: 18322025 First quantitative assessment of the surprise question.  Cited by 15
-- Moss. Clin J Am Soc Nephrol. 2008 PMID: 18596118 First labeling of the question in the title/abstract of a quantitative study. Cited by 148
+- Chaparro. Cochrane Database Syst Rev. 2013 PMID: [23983011](https://pubmed.gov/23983011). 119 citations
 
-###Searching 'surprised' within the highly citing studies using Google Scholar (7/17/2016)
-- Murray. [52 articles](https://scholar.google.com/scholar?q=surprised&btnG=&hl=en&as_sdt=2005&sciodt=0%2C5&cites=13471818729840465845&scipsc=1) (no additional articles)
-- Moss.  [100 articles](https://scholar.google.com/scholar?q=surprised&btnG=&hl=en&as_sdt=2005&sciodt=0%2C5&cites=14324371999406552138&scipsc=1) (no additional articles)
+###Searching 'random*' within the highly citing studies using Google Scholar (2/27/2017)
+- Chaparro. [52 articles](https://scholar.google.com/scholar?q=random*&btnG=&hl=en&as_sdt=2005&sciodt=0%2C5&cites=5931559829283316894&scipsc=1) (no additional studies found)
+
