@@ -1,4 +1,4 @@
-#PICO Table
+# PICO Table
 ([switch to Risk of Bias table](risk-of-bias.md))
 
 <i>This template contains below tables for both diagnostic tests assessments and randomized controlled trials. Delete the table that is not needed after importing the files for the review template.</i>
