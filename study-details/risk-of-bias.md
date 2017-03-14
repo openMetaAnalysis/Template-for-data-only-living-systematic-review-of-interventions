@@ -1,9 +1,9 @@
-#Risk of bias table
+# Risk of bias table
 ([switch to PICO table](pico-table.md))
 
 <i>This template contains below tables for 1) diagnostic tests assessments, 2) randomized controlled trials, and 3) and studies of prognosis. Delete the tables that are not needed after importing the files for the review template.</i>
 
-##Diagnostic test assessment studies
+## Diagnostic test assessment studies
 
 Based on [QUADAS-2](http://www.bristol.ac.uk/social-community-medicine/projects/quadas/quadas-2/).
 
@@ -18,7 +18,7 @@ Based on [QUADAS-2](http://www.bristol.ac.uk/social-community-medicine/projects/
 *
 †
 
-##Prognostic factor studies
+## Prognostic factor studies
 
 Based on [QUIP](http://methods.cochrane.org/sites/methods.cochrane.org.prognosis/files/public/uploads/QUIPS%20tool.pdf) (PMID [23420236](https://pubmed.gov/23420236)).
 
@@ -30,7 +30,7 @@ Based on [QUIP](http://methods.cochrane.org/sites/methods.cochrane.org.prognosis
 *
 †
 
-##Randomized controlled trials
+## Randomized controlled trials
 Based on [Cochrane Handbook](http://handbook.cochrane.org/chapter_8/table_8_5_d_criteria_for_judging_risk_of_bias_in_the_risk_of.htm). Modifications are:
 * Selective reporting bias is high risk if trial protocol is not registered.(PMID [26244868](https://pubmed.gov/26244868))
 * Incomplete outcome data is unclear risk of Consort diagram is not provided.
