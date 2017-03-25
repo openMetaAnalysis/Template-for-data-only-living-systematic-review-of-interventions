@@ -16,7 +16,7 @@ Study                                                        |Patients/populatio
 ## Randomized controlled trials
 Study                                                           |Patients/population/problem|Intervention|Comparison|Outcome|
 ----------------------------------------------------------------|---------------------------|------------|----------|-------|
-|Perruzi1993<br><br>PMID [8472567](http://pubmed.gov/8472567)   |Adults in intensive care with an arterial catheter | VAMP | Usual care | Transfusion while in intensive care|
+|Perruzi<br>1993<br>PMID [8472567](http://pubmed.gov/8472567)   |Adults in intensive care with an arterial catheter | VAMP | Usual care | Transfusion while in intensive care|
 |MacIsaac<br>2003<br>PMID [14719427](http://pubmed.gov/14719427)|Adults in intensive care with an arterial catheter | VAMP | Usual care |Transfusion while in intensive care|
 | Harber<br>2006<br>PMID [16913337](http://pubmed.gov/16913337) |Adults in intensive care with an arterial catheter | VAMP + small collection tubes|Usual care|Transfusion while in intensive care|
 
