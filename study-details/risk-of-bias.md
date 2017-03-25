@@ -42,5 +42,6 @@ Based on [Cochrane Handbook](http://handbook.cochrane.org/chapter_8/table_8_5_d_
 | ProCESS       |[24635773](http://pubmed.gov/24635773)|Low risk |Low risk |Unclear risk |Low risk     |Low risk |Low risk|Low risk|
 
 **Footnotes:**<br>
-*
-†
+\* Attrition bias is 'unclear risk" as Consort flow diagram not provided.<br>
+† Selective reporting bias is 'unclear risk" as no original protocol at a online trial registry.
+
