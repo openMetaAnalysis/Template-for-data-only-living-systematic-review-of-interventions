@@ -3,7 +3,7 @@
 
 <i>This template contains below tables for both diagnostic tests assessments and randomized controlled trials. Delete the table that is not needed after importing the files for the review template.</i>
 
-##Diagnostic test assessment studies
+## Diagnostic test assessment studies
 
 Study        | PMID                                    |Patients/population|Index test|Reference standard|Subject flow and timing|
 ------------ | --------------------------------------|---------------------------|------------|----------|-------|
@@ -13,9 +13,9 @@ Study        | PMID                                    |Patients/population|Inde
 *
 †
 
-##Randomized controlled trials
-Study        | PMID                                    |Patients/population/problem|Intervention|Comparison|Outcome|
------------- | --------------------------------------|---------------------------|------------|----------|-------|
-| Richard    |[25572383](http://pubmed.gov/25572383) |Adults with mean arterial pressure < 65 mm Hg before(?) fluids | Protocol based on PICCO | Usual care | Mortality at 28 days|
-| Kuan       |[26475246](http://pubmed.gov/26475246) |Adults with lactate level >= 3 mmol/L                          | Protocol based on NICOM | Usual care |Mortality at 28 days|
-| ProCESS    |[24635773](http://pubmed.gov/24635773) |Adults with lactate level >= 5 mmol/L or systolic pressure < 90 mm Hg after 1000 ml fluid challenge| Protocol based on shock index |Usual care|Mortality at 60 days|
+## Randomized controlled trials
+Study                                                   |Patients/population/problem|Intervention|Comparison|Outcome|
+--------------------------------------------------------|---------------------------|------------|----------|-------|
+|Perruzi<br>PMID [8472567](http://pubmed.gov/8472567)   |Adults in intensive care with an arterial catheter | VAMP | Usual care | Transfusion while in intensive care|
+|MacIsaac<br>PMID [14719427](http://pubmed.gov/14719427)|Adults in intensive care with an arterial catheter | VAMP | Usual care |Transfusion while in intensive care|
+| Harber<br>PMID [16913337](http://pubmed.gov/16913337) |Adults in intensive care with an arterial catheter | VAMP + small collection tubes|Usual care|Transfusion while in intensive care|
