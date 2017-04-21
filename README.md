@@ -37,6 +37,9 @@ Goldberg H, Kennedy DJ, Mandel S, Tyburski M, Sanders W, Sibell D, Smuck M, Wasa
 #### Trial(s) included in the review above
 1. Fukusaki M, Kobayashi I, Hara T, Sumikawa K. Symptoms of spinal stenosis do not improve after epidural steroid injection. Clin J Pain. 1998 Jun;14(2):148-51. PMID:[9647457](http://pubmed.gov/9647457).
 
+#### Trial(s) undergoing review
+None
+
 #### Trial(s) excluded - selected list of important trial(s)
 
 #### Cited by
