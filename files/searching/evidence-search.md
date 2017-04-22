@@ -1,7 +1,7 @@
 # Evidence search
 (under construction)
 ## Inclusion criteria
-* Randomized trials of [disease] that compare [intervention] to placebo.
+Randomized trials of [disease] that compare [intervention] to placebo.
 
 ## Reconciliation tables
 (under construction)
@@ -20,7 +20,7 @@
 Seed articles: PMIDs [15570651,12809961,10743823,22970658,18557165,24183364,24526247](https://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&tool=SUMSearch2plugins&otool=kumclib&term=15570651%2012809961%2010743823%2022970658%2018557165%2024183364%2024526247)
 * [2395 citations](https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=15570651,12809961,10743823,22970658,18557165,24183364,24526247)
 * X citations when above limited to [disease]
-  * [X additional articles found]((https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=15570651)
+  * [X additional articles found](https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=15570651)
 
 ## ClinicalTrials.gov
 (under construction)
