@@ -11,9 +11,9 @@ Randomized trials of [disease] that compare [intervention] to placebo.
 ### Boolean term searching
 (under construction)
 
-[disease] AND [intevention] AND random\*
-* Retrieves all X articles in hand (100% sensitivity)
-* X total citations found (search results reviewed 2/27/2016; no additional studies found)
+[[disease] AND [intevention] AND random\*](https://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&term=disease%20AND%20intervention)
+* Retrieves X articles in hand (100% sensitivity)
+* X total citations found (search results reviewed 2/27/2016; X additional studies found)
 
 ### Vector searching ('Related citations' search)
 (under construction)
