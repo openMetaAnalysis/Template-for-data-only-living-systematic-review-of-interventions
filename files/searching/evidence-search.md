@@ -5,7 +5,7 @@ Randomized trials of [disease] that compare [intervention] to placebo.
 
 ## Reconciliation tables
 (under construction)
-* [Comparison of included studies with prior systematic reviews](../../tree/master/reconciliation-tables/)
+* [Comparison of included studies with prior systematic reviews](../reconciliation-tables)
 
 ## PubMed
 ### Boolean term searching
