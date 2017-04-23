@@ -17,10 +17,10 @@ A data-only living systematic review
 * [Reconciliation of conclusions and trials included with prior meta-analyses](../master/files/reconcilation-tables) (under construction)
 
 The forest plot for the primary outcomes are below. Additional [forest plots](../master/files/forest-plots) of secondary analyses may be available. 
-![Principle results](https://github.com/openMetaAnalysis/template-for-data-only-review-of-interventions/blob/master/files/forest-plots/Outcome-Primary.png "Principle results")
+![Principle results](../../blob/master/files/forest-plots/Outcome-Primary.png)
 
 The meta-regression for the primary outcomes are below. Additional [meta-regressions](../master/files/metaregression) of secondary analyses may be available. 
-![Principle results for benefit](https://raw.githubusercontent.com/openMetaAnalysis/template-for-data-only-review-of-interventions/master/files/metaregression/Outcome-Primary.png "Principle results for benefit]")
+![Principle results for benefit](../../blob/master/files/metaregression/Outcome-Primary.png "Principle results for benefit]")
 
 References:
 ----------------------------------
