@@ -17,6 +17,7 @@ Based on [QUADAS-2](http://www.bristol.ac.uk/social-community-medicine/projects/
 **Footnotes:**<br>
 *
 †
+‡
 
 ## Prognostic factor studies
 
@@ -29,6 +30,7 @@ Based on [QUIP](http://methods.cochrane.org/sites/methods.cochrane.org.prognosis
 **Footnotes:**<br>
 *
 †
+‡
 
 ## Randomized controlled trials
 Based on [Cochrane Handbook](http://handbook.cochrane.org/chapter_8/table_8_5_d_criteria_for_judging_risk_of_bias_in_the_risk_of.htm). Modifications are:
@@ -44,5 +46,6 @@ Based on [Cochrane Handbook](http://handbook.cochrane.org/chapter_8/table_8_5_d_
 
 **Footnotes:**<br>
 \* Attrition bias is 'unclear risk" as Consort flow diagram not provided.<br>
-† Selective reporting bias is 'unclear risk" as no original protocol at a online trial registry.
+† Selective reporting bias is 'unclear risk" as no original protocol at a online trial registry.<br>
+‡
 
