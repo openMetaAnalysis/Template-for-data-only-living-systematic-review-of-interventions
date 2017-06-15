@@ -11,8 +11,8 @@ A data-only living systematic review
 * [Evidence search](files/searching/evidence-search.md) for this review
 
 **Results:** Details of the studies included are in the:
-* [Description of studies (PICO table)](files/study-details/pico-table.md) (under construction)
-* [Risk of bias assessment](files/study-details/risk-of-bias.md) (under construction)
+* [Description of studies (PICO table)](files/study-details/table-pico.pdf) (under construction)
+* [Risk of bias assessment](files/study-details/table-bias.pdf) (under construction)
 * [Forest plots](../master/files/forest-plots) ([source data](files/data))
 * [Reconciliation of conclusions and trials included with prior meta-analyses](files/reconciliation-tables) (under construction)
 
