@@ -1,0 +1,4 @@
+1. Create an account at GitHub. Browse to https://github.com/join
+2. "Fork" make a copy of this respository. The copy will be in your personal directory.
+3. Make edits in source files. If needed, overwrite new PDF files.
+4. Initial a "Pull request" for your revised files to be accepted in the openMetaAnalysis repository.
