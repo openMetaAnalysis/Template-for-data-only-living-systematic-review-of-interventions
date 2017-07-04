@@ -4,7 +4,7 @@ A living systematic review
 
 **Clinical summary:** This meta-analysis suggests that clinical intervention *is or is not* effective. Heterogeneity of results as measured by I2 was '[moderate](http://handbook.cochrane.org/chapter_9/9_5_2_identifying_and_measuring_heterogeneity.htm)' at XX%. This review updates the previously published meta-analysis.(1)
 
-* [Reconciliation of conclusions with prior meta-analyses/](files/reconciliation-tables/Reconciliation%20of%20conclusions.pdf) (under construction)
+* [Reconciliation of conclusions with prior meta-analyses](files/reconciliation-tables/Reconciliation%20of%20conclusions.pdf) (under construction)
 * [Keep current with this topic](files/searching/Keep-up.md) (not available)
 
 **Methods overview:** This repository is an [openMetaAnalysis](https://openmetaanalysis.github.io/) that updates a previously published narrative review.(1) Newer studies included are listed in the references below. Rationale for newer trials excluded may be listed at the end of the references. 
