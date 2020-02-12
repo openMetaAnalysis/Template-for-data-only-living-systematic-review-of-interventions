@@ -1,10 +1,14 @@
 <!doctype html>
+<!-- **Scroll down to three locations that state
+    **Edit references here**
+-->
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>openMetaAnalysis</title>
-
+     <meta name="author" content="openMetaAnalysis Contributors">
+     
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -12,93 +16,183 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-<!-- Add these two js source files -->
+<!-- Added these two js source files -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
 <script src="/openmetaanalysis.js"></script>
-
-</head>
+<link rel="stylesheet" href="/openmetaanalysis.css">
+  </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="repo_name">Template</h1>
-        <p>A living systematic review</p>
+        <h1 class="repo_name"></h1>
+        <p class="view">Short URL: <a href="https://openmetaanalysis.github.io/template">openmetaanalysis.github.io/template</a></p>
+        <p class="view"><a href="" class="master-home">View the Project on GitHub (for authors)</a></p>
 
-        <p class="view"><a href="https://github.com/openMetaAnalysis/Template">View the Project on GitHub <small>openMetaAnalysis/<span class="repo_name"></span></small></a></p>
-
-        <ul>
-          <li><a href="https://github.com/openMetaAnalysis/Template/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/openMetaAnalysis/Template/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/openMetaAnalysis/Template">View On <strong>GitHub</strong></a></li>
-        </ul>
-
-        <p class="view"><a href="https://github.com/openMetaAnalysis/_Methods/blob/master/README.md">Methods used by openMetaAnalyses</a></p>
-
-      </header>
+        <!--<ul>
+          <li><a href="zipball/master" class="master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="tarball/master" class="master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="" class="master">View On <strong>GitHub</strong></a></li>
+        </ul>-->
+        
+       </header>
       <section>
 
-<!-- Edit this paragraph below except in unusual circumstances-->
-<strong>Clinical summary:</strong> This meta-analysis suggests that the clinical intervention is <em>not clearly effective</em> at 4-6 weeks. Effect noted by Fukusaki at one week from corticosteroids is similar to the effect of local anesthetics. However, the quality of evidence is <em>low</em> (<a href="https://github.com/openMetaAnalysis/_Methods/blob/master/README.md">see methods</a>) due to imprecision of results and the heterogeneity or inconsistency of results. Additional interpretations may be in the references in the 'Cited by' section below.</p>
-<!-- Edit this paragraph above-->
+<!-- **Edit here** -->
+<p><strong>Clinical summary:</strong> 
+This meta-analysis suggests that the clinical intervention <em>is effective</em>; 
+however, meta-regression indicates that the benefit inversely correlates with the mortality rate in the control group. While benefit also correlates with year of publication, only the the mortality rate in the control group is an independent predictor. 
+The moderate heterogeneity was explained by variations in the mortality rate in the control groups of the trials (see meta-regression below) and the <a href="#" class="hastip" id="heterogeneity">heterogeneity was 'unimportant'</a> after the rate of outcomes among controls was added to the meta-regression (residual I<sup>2</sup> = 0%). 
+Accordingly, the two most recent trials both had less than 20% mortality in the control group, and the intervention did not reduce mortality. Alternatively, 'Meta-regression dooes not find modulators on the effect of the intervention."</p>
 
-<p><strong>Methods:</strong> This repository contains the <a href="data/">source data</a>, matching <a href="forest%20plots">forest plots</a> and <a href="GRADE%20profiles/">GRADE profiles</a> for an <a href="https://openmetaanalysis.github.io/">openMetaAnalysis</a> of this intervention. This repository updates a previously published meta-analysis.(1)</p>
+<p>Meta-regression dooes not find modulators (year of publication, study size, event rate in the control groups) on the effect of the intervention.</p>
+   
+<p>The quality of evidence supporting benefit in trials with high mortality is <grade>pending</grade> due to all trials being unblinded and the benefit being in a small number of subjects studied and an unplanned subgroup analysis.
+<CRITERIA>We included randomized controlled trials of treating patients with septic shock with early-goal directed therapy.</CRITERIA> 
+Additional interpretations may be in the references in the 'Cited by' section below.</p>
+<!-- **to here** -->
 
-<p><strong>Results:</strong> Details of the studies included are in the <a href="table-pico.html">PICO table</a> and <a href="table-bias.html">risk of bias table</a>. Rationale for studies excluded may be listed at the end of the references below.  See <a href="https://github.com/openMetaAnalysis/_Methods/blob/master/README.md">see methods</a> for details.</p>
+<ul>
+<li><a href="reconciliation-tables/Reconciliation of conclusions.pdf" class="master-dir" title="Table in PDF format">Reconciliation of conclusions with prior meta-analyses</a> (<a href="reconciliation-tables/Source" class="master-dir">source files</a>)</li>
+<li><a href="reconciliation-tables/Reconciliation of studies.pdf" class="master-dir" title="Table in PDF format">Reconciliation of studies included with prior meta-analyses</a> (<a href="reconciliation-tables/Source" class="master-dir">source files</a>)</li>
+<li>
+<script>
+document.write('<a href="https://github.com/openMetaAnalysis/' + repo_dir + '/blob/master/files/searching/Keep-up.md">Keep current with this topic</a>')
+</script>
+</li>
+</ul>
+<p>Acknowledgement: we acknowledge the essential work by the authors of the prior systematic review(s) listed below.</p>
 
-<p>Below is the forest plot for the primary outcome. <a href="forest%20plots/">Forest plots</a> for other outcomes may be available.
-<a href="/forest%20plots/benefit.png" target="_blank"><img src="forest%20plots/benefit.png" alt="Image of forest plot of primary outcome" title="Principle results" style="max-width:100%;"></a></p>
+<p><strong>Methods overview:</strong> This repository is an <a href="https://openmetaanalysis.github.io/">openMetaAnalysis</a> that combines methods of scoping, rapid, and living systematic reviews. This analysis updates one or more previously published review(s)(<a href="#Prior_systematic_reviews">1</a>).</p>
+<p><span id="criteria_display">&nbsp;</span> Newer studies included are listed in the <a href="#Studies">references</a>. Rationale for newer trials excluded may be listed at the end of the references.</p>
+<ul>
+<script>
+document.write('<li><a href="https://github.com/openMetaAnalysis/' + repo_dir + '/blob/master/files/searching/evidence-search.md">Evidence search for this review</a> (under construction)</li>')
+</script>
+</ul>
+<p>A comparison of studies included in this review compared to prior reviews are in the table, <a href="reconciliation-tables/Reconciliation of studies.pdf" class="master-dir" title="Table in PDF format">reconciliation of studies included with prior meta-analyses</a>. Studies were abstacted into standardized tables of <script>document.write("<a href='https://github.com/openMetaAnalysis/" + repo_dir + "/blob/master/files/study-details/table-pico.pdf'>PICO attributes</a> and <a href='https://github.com/openMetaAnalysis/" + repo_dir + "/blob/master/files/study-details/table-bias.pdf'>risk of bias</a>")</script>, and <a href="data/" class="master-dir" title="data files">results</a>.</p>
+<ul>
+<li><a href="/methods.html">Methods for openMetaAnalysis</a></li>
+</ul>
 
-<p>Below is the GRADE Profile for the quality of the primary outcome.
-<a href="GRADE%20profiles/benefit.png" target="_blank"><img src="GRADE%20profiles/benefit.png" alt="Image of GRADE Profile of primary outcome" title="Principle results" style="max-width:100%;"></a></p>
+<p><strong>Results:</strong> Details of the studies included are in the:</p>
+<ul>
+<li><a href="PRISMA/" class="master-dir">PRISMA documentation</a> (under construction)</li>
+<li><a href="reconciliation-tables/Reconciliation of studies.pdf" class="master-dir" title="Table in PDF format">Reconciliation of studies included with prior meta-analyses</a> (<a href="study-details/Source" class="master-dir">source files</a>) (under construction)</li>
+<li><a href="study-details/table-pico.pdf" class="master-dir" title="PICO table in PDF format">PICO table (study descriptions)</a> (<a href="study-details/Source" class="master-dir">source files</a>)  (under construction)</li>
+<li><a href="study-details/table-bias.pdf" class="master-dir" title="Risk of bias table in PDF format">Risk of bias table</a> (<a href="study-details/Source" class="master-dir">source data</a>) (under construction)</li>
+<!-- alternative formats
+<li><a href="table-bias.html">PICO table</a></li>
+<li><a href="study-details/table-bias.pdf" class="gh-pages-files" title="Table in PDF format">Risk of bias table</a> (<a href="study-details/" class="gh-pages-dir">source files</a>)</li>
+-->
+<li><a href="forest-plots/" class="master-dir">Forest plot(s)</a> (<a href="data/" class="master-dir">source data</a>) (under construction)</li>
+</ul>
 
-<h2>
-<a id="user-content-references" class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References:</h2>
+<p>Below is the forest plot for the primary outcome. Additional <a href="forest-plots/" class="master-dir" title="forest plots">Forest plots</a> may be available.
+<a href="forest-plots/Outcome-Primary.png" class="master-file"><img src="forest-plots/Outcome-Primary.png" alt="Image of forest plot of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="forest"></a></p>
 
-<h3>
-<a id="user-content-systematic-reviews" class="anchor" href="#systematic-reviews" aria-hidden="true"><span class="octicon octicon-link"></span></a>Systematic review(s)</h3>
+<div id="network" style="display:none">
+<div>Below is the network meta-analysis for the primary outcome. Additional <a href="network/" class="master-dir" title="network meta-analysis plots">network plots</a> may be available.</div>
+<a href="network/Outcome-Primary.png" class="master-file"><img src="network/Outcome-Primary.png" alt="Image of network meta-analysis of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="network_figure"></a>
+</div>
+         
+<div id="metaregression" style="display:none">
+<div>Below is the metaregression for the primary outcome. Additional <a href="metaregression/" class="master-dir" title="metaregressions plots">metaregression plots</a> may be available.</div>
+<a href="metaregression/Outcome-Primary.png" class="master-file"><img src="metaregression/Outcome-Primary.png" alt="Image of meta-regression of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="metaregression_figure"></a>
+</div>
 
-<h4>
-<a id="user-content-most-recent-review-at-time-of-last-revision-of-this-repository" class="anchor" href="#most-recent-review-at-time-of-last-revision-of-this-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Most recent review at time of last revision of this repository</h4>
+<div id="network" style="display:none">
+<div>Below is the network meta-analysis for the primary outcome. Additional <a href="network/" class="master-dir" title="network meta-analyses plots">network plots</a> may be available.</div>
+<a href="network/Outcome-Primary.png" class="master-file"><img src="network/Outcome-Primary.png" alt="Image of network meta-analysis of primary outcome" title="Principle results" style="max-width:100%;" class="master" id="network_figure"></a>
+</div>
 
-<ol class="task-list">
-<li>Ammendolia C, Stuber KJ, Rok E, Rampersaud R, Kennedy CA, Pennick V, Steenstra IA, de Bruin LK, Furlan AD. Nonoperative treatment for lumbar spinal stenosis with neurogenic claudication. Cochrane Database Syst Rev. 2013 Aug 30;8:CD010712. doi: <a href="http://dx.doi.org/10.1002/14651858.CD010712">10.1002/14651858.CD010712</a>. PMID: <a href="http://pubmed.gov/23996271">23996271</a>.</li>
+<p>The <SoF>Summary of Findings Table (SoF)</SoF> from the GRADE Profile is below (<a href="GRADE-profiles/" class="master-dir" title="GRADE Profiles">source files</a>).
+<a href="GRADE-profiles/Summary-of-findings-table.png" class="master-file"><img src="GRADE-profiles/Summary-of-findings-table.png" alt="Image of GRADE Summary of findings table" title="GRADEprofile" style="max-width:100%;" class="master" id="grade"></a></p>
+
+<div id="references">
+<h2>References:</h2><!-- Start of references. PMIDs and PCMIDs are make into links if not already in the format of a link-->
+
+<a id="Prior_systematic_reviews"><h3>Systematic review(s)</h3></a>
+
+<h4>Most recent review(s) at time of last revision of this repository</h4>
+
+<ol>
+<li>
+<!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
+<li>Gu WJ, Wang F, Bakker J, Tang L, Liu JC. The effect of goal-directed therapy on mortality in patients with sepsis - earlier is better: a meta-analysis of randomized controlled trials. Crit Care. 2014 Oct 20;18(5):570. PMID: 25327977; PMCID: PMC4232636.</li>
+<li>Wira CR, Dodge K, Sather J, Dziura J. Meta-analysis of Protocolized Goal-Directed Hemodynamic Optimization for the Management of Severe Sepsis and Septic Shock in the Emergency Department. West J Emerg Med. 2014 Feb;15(1):51-9.  doi: <a href="http://dx.doi.org/10.5811/westjem.2013.7.6828">10.5811/westjem.2013.7.6828</a>.  PMID: 24696750; PMCID: PMC3952890.</li>
+<!-- **to here** -->
+</li>
 </ol>
 
-<h3>
-<a id="user-content-randomized-controlled-trials" class="anchor" href="#randomized-controlled-trials" aria-hidden="true"><span class="octicon octicon-link"></span></a>Randomized controlled trials</h3>
+<a id="Studies" name="studies">
+<h3>Studies</h3></a>
 
-<h4>
-<a id="user-content-new-trials-not-included-in-the-most-recent-review-above" class="anchor" href="#new-trials-not-included-in-the-most-recent-review-above" aria-hidden="true"><span class="octicon octicon-link"></span></a>New trial(s) <em>not</em> included in the most recent review above</h4>
+<h4>New Studies <em>not</em> included in the most recent review above</h4>
 
-<ol class="task-list">
-<li>Friedly JL, Comstock BA, Turner JA, Heagerty PJ, Deyo RA, Sullivan SD, Bauer Z, Bresnahan BW, Avins AL, Nedeljkovic SS, Nerenz DR, Standaert C, Kessler L, Akuthota V, Annaswamy T, Chen A, Diehn F, Firtch W, Gerges FJ, Gilligan C,
-Goldberg H, Kennedy DJ, Mandel S, Tyburski M, Sanders W, Sibell D, Smuck M, Wasan A, Won L, Jarvik JG. A randomized trial of epidural glucocorticoid injections for spinal stenosis. N Engl J Med. 2014 Jul 3;371(1):11-21. doi: <a href="http://dx.doi.org/10.1056/NEJMoa1313265">10.1056/NEJMoa1313265</a>. PMID: <a href="http://pubmed.gov/24988555">24988555</a>.</li>
+<ol>
+<li>
+<!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
+Pending
+<!-- **to here** -->
+</li>
 </ol>
 
-<h4>
-<a id="user-content-trials-included-in-the-review-above" class="anchor" href="#trials-included-in-the-review-above" aria-hidden="true"><span class="octicon octicon-link"></span></a>Trial(s) included in the review above</h4>
+         
+<h4>Studies <em>included</em> in the most recent review above</h4>
 
-<ol class="task-list">
-<li>Fukusaki M, Kobayashi I, Hara T, Sumikawa K. Symptoms of spinal stenosis do not improve after epidural steroid injection. Clin J Pain. 1998 Jun;14(2):148-51. PMID:<a href="http://pubmed.gov/9647457">9647457</a>.</li>
+<ol>
+<li>
+<!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
+Pending
+<!-- **to here** -->
+</li>
 </ol>
 
-<h4>
-<a id="user-content-trials-excluded---selected-list-of-important-trials" class="anchor" href="#trials-excluded---selected-list-of-important-trials" aria-hidden="true"><span class="octicon octicon-link"></span></a>Trials excluded - selected list of important trials</h4>
+<h4>Studies undergoing review</h4>
+<ol>
+<li>
+<!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
+Pending
+<!-- **to here** -->
+</li>
+</ol>
 
-<h4>
-<a id="user-content-cited-by" class="anchor" href="#cited-by" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cited by</h4>
+<a id="excluded" name="excluded">
+<h4>Studies excluded - selected list of important studies</h4></a>
+<ol>
+<li>
+<!-- **Paste in references here.  Use PubMed summary (text format). Leave one blank line between each reference ** -->
+Andrews B, Muchemwa L, Kelly P, Lakhi S, Heimburger DC, Bernard GR. Simplified severe sepsis protocol: a randomized controlled trial of modified early goal-directed therapy in Zambia. Crit Care Med. 2014 Nov;42(11):2315-24. doi: 10.1097/CCM.0000000000000541. PMID: 25072757; PMCID: PMC4199893. <i>Trial was terminated early.</i>
+<!-- **to here** -->
+</li>
+</ol>
+
+<h4>Funding for this review</h4>
+<!-- **Edit excluded studies here** -->
+<ol>
+<li>None.</li>
+</ol>
+
+
+<h4>Cited by</h4>
 
 <p>This repository is cited by:</p>
 
-<ol class="task-list">
-<li>WikiDoc contributors. Spinal stenosis medical therapy. WikiDoc. Nov 9, 2014. Available at: <a href="http://www.wikidoc.org/index.php/Spinal_stenosis_medical_therapy">http://www.wikidoc.org/index.php/Spinal_stenosis_medical_therapy</a>. Accessed November 9, 2014. </li>
+<ol>
+<!-- Edit cited by references below this line -->
+<li>WikiDoc contributors. Pending. WikiDoc. Fef 24, 2015. Available at: <a href="http://www.wikidoc.org/index.php/pending">http://www.wikidoc.org/index.php/Pending</a>. Accessed February 24, 2015. </li>
 </ol>
+</div><!-- End of references. PMIDs and PCMIDs are make into links-->
 
-      </section>
+</section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/openMetaAnalysis">openMetaAnalysis</a></p>
+        <p>This project is maintained by <a href="http://openmetaanalysis.github.io/">openMetaAnalysis</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
+<div id="business"></div>
       </footer>
-    </div>
+
+</div>
     <script src="javascripts/scale.fix.js"></script>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -110,6 +204,6 @@ Goldberg H, Kennedy DJ, Mandel S, Tyburski M, Sanders W, Sibell D, Smuck M, Wasa
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
-  </body>
+<div id="tip" style="display:none"></div>
+</body>
 </html>
