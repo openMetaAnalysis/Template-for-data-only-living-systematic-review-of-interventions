@@ -30,6 +30,8 @@ The forest plot for the primary outcomes are below. Additional [forest plots](fi
 The meta-regression for the primary outcomes are below. Additional [meta-regressions](files/metaregression) of secondary analyses may be available. 
 ![Principle results for benefit](files/metaregression/Outcome-Primary.png "Principle results for benefit]")
 
+The GRADE Profile is below. ![GRADE Profile](files/GRADE-profiles/Summary-of-findings-table.png "GRADE Profile")
+
 References:
 ----------------------------------
 
