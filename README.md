@@ -20,7 +20,7 @@ Acknowledgement: we acknowledge the essential work by the authors of the prior [
 * [Reconciliation of trials included with prior meta-analyses/](files/reconciliation-tables/Reconciliation%20of%20studies.pdf) (under construction)
 * [Description of studies (PICO table)](files/study-details/table-pico.pdf) (under construction)
 * [Risk of bias assessment](files/study-details/table-bias.pdf) (under construction)
-* [Forest plots](../master/files/forest-plots) ([source data](files/data))
+* [Forest plots](../master/files/forest-plots) ([spreadsheets with source data](files/data))
 * [Network plots](../master/files/network) (optional)
 * [Reconciliation of conclusions with prior meta-analyses](files/reconciliation-tables/Reconciliation%20of%20conclusions.pdf) (under construction)
 
