@@ -5,7 +5,7 @@ Randomized trials of [disease] that compare [intervention] to placebo.
 
 ## Reconciliation tables
 (under construction)
-* [Comparison of included studies with prior systematic reviews](../reconciliation-tables/Reconciliation%20of%20studies.pdf)
+* [Comparison of included studies with prior systematic reviews](files/reconciliation-tables/Reconciliation%20of%20studies%20and%20conclusions.pdf)
 
 ## PubMed
 ### Boolean term searching
@@ -14,12 +14,9 @@ Randomized trials of [disease] that compare [intervention] to placebo.
 * Retrieves 5 articles in hand (100% sensitivity) (search 6/19/2017)
 * 12 total citations found (search results reviewed 6/x/2017; 0 additional studies found)
 
-### Vector searching ('Related citations' search)
-(under construction)
-Seed articles: PMIDs [26314489,28552271,28140013,9851958,2897005](https://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&tool=SUMSearch2plugins&otool=kumclib&term=26314489%2028552271%2028140013%209851958%202897005)
-* [595 citations](https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=26314489,28552271,28140013,9851958,2897005)
-* 99 citations when above limited to years 2014 - 2017 (time period after Cochrane review)
-  * [X additional articles found](https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=15570651)
+### Vector searching ('Similar to Set' or 'Related citations' search)
+This resources has been discontinued by the National Library of Medicine. Details of the discontinuation and recourse are at:
+* Badgett R, Hamill C, Sampson M, Weightman A, Brassey J, Dean T, Ebell M. Lost in translation - campaign to restore a useful tool not replicated in the new PubMed. OSF; 2020 Oct 5 [cited 2021 Jan 20]; Available from: https://osf.io/3cdny/
 
 ## ClinicalTrials.gov
 
