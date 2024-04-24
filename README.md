@@ -4,9 +4,14 @@ A living systematic review
 
 Short url: http://
 
-**Clinical summary:** This meta-analysis suggests that clinical intervention *is or is not* effective. Heterogeneity of results as measured by I<sup>2</sup> was '[moderate](https://training.cochrane.org/handbook/current/chapter-10#section-10-10-2)' at XX%. This review updates previously published meta-analysis(es).(citation[s] below)
+**Clinical summary:** 
+This meta-analysis suggests that the effectiveness of the clinical intervention *is* [moderate](https://training.cochrane.org/handbook/current/chapter-15#section-15-5-3-1). [Standarized mean differences](https://training.cochrane.org/handbook/current/chapter-15#section-15-3) betweeen intervention and control groups across outcomes range from x to y. 
 
-Meta-regression of common modulators (year of publication, study size, event rate in the control groups) finds that the outcome of the intervention is effected by xx.
+Heterogeneity of results as measured by I<sup>2</sup> '[might not be important](https://training.cochrane.org/handbook/current/chapter-10#section-10-10-2)' at x% for all analyses; however very wide confidence intervals reflect the small number of studies and subjects. 
+
+Meta-regression of common modulators (year of publication, study size, event rate in the control groups) has not been done due to the small number of studies.
+
+This review updates previously published meta-analysis(es).(citation[s] below)
 
 * [Reconciliation of studies and conclusions with prior meta-analyses](files/reconciliation-tables/Reconciliation%20of%20studies%20and%20conclusions.pdf)
 * [Keep current with this topic](files/searching/Keep-up.md)
